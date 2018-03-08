@@ -9,7 +9,7 @@ After applying grid the next step is split the items up into sections there are 
 
 ## Explicitly stating how big you want each of the section of grid to be
 
-`grid-template-columns: 100px 100px 100px;` Takes the direct children of the parent(grid items) and puts them within three columns each a 100px wide , automatically creating a new row for additional elements once again with three columns each a 100px. 
+`grid-template-columns: 100px 100px 100px;` Takes the direct children of the parent(grid items) and puts them within three columns each a 100px wide , automatically creating a new row for additional elements once again with three columns each a 100px.
 
 Each single item takes up a column. If there is a odd number it will drop onto a new row. The number of columns and the size of each can vary for example you could do `grid-template-columns: 50px 400px 300px 200px;` this would create four columns the first being 50px wide, second 400px wide and so forth. This would repeat again onto a new row if there were more then four items, so the 5th element would be 50px wide, the 6th 400px.
 

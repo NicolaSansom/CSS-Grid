@@ -3,7 +3,7 @@
 # Explicit  and implicit
 Explicit is when you explicitly define what the tracks values will be.
 
-`grid-template-columns 200px 400px;` Is an example of this, columns are explicit but the rows implicit 
+`grid-template-columns:200px 400px;` Is an example of this, columns are explicit but the rows implicit
 
 Implicit is when you do not define values for a track. For example if you considered the prior example, the first column is 200px and the second 400px. If there were 2 more items added, this pattern would repeat, the third item being 200px and the forth item being 400px and so on and so forth, implict rows  being created every time a row has more than two columns.
 
