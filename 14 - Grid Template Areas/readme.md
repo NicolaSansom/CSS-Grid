@@ -41,4 +41,4 @@ Previously when positioning items within grid areas we did:
 `grid-column: 2 / 5;`
 
 When using named grid areas we are able to instead use the line names based off the areas in context of the example this would be:
-`grid-column: 🦄-start/ 🦄-end;`
+`grid-column: 🦄-start/ 👻-end;`
