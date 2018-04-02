@@ -2,7 +2,7 @@
 
 [CSS grid cheatsheet](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-This episode focuses on how the center and align items within a grid. All of the properties are very familiar as they are used within flexbox as well.
+This episode focuses on how to center and align items within a grid. All of the properties are very familiar as they are used within flexbox.
 
 **Justify** on the row axis
 
@@ -18,11 +18,11 @@ The same values are also aviable for `align` accept it will be on the column axi
 
 ### Column and row shorthand
 
-If wanted to define value on one line we could use `place-items`. This property is not supported on all browsers however so it worth autoprefixing these with single align and justify properties.
+If wanted to define both values on one line we could use `place-items`. This property is not supported on all browsers however so it worth autoprefixing these with single align and justify properties.
 
 ## Content
 
-Justify and align content allows us to position the grid items if they do not fill the whole grid. So for example if the total width of all grid items was 1200px  but that left 200px remaning space in the grid, we could center these items so the whitespace would be event each side, in the prior example 100px left and right if centered. `justify-content: start` is the default.
+Justify and align content allows us to position the grid items if they do not fill the whole grid. So for example if the total width of all grid items was 1200px  and the remaining space in the grid was  200px, we could center these items so the whitespace would be even each side, in the prior example 100px left and right if centered. `justify-content: start` is the default.
 
 Space-around & between are also available these have the same behavior has on flex.
 
@@ -30,4 +30,4 @@ The same values are also aviable for `align` accept it will be on the column axi
 
 ## Self
 
-The self properties are applied onto the items themselves. There are some instances where one items will need a different positioning then the others. The same properties are aviable for self as items.
+The self properties are applied onto the items themselves. These are some useful in instances where one item needs to have a different positioning then the others. The same properties are available as items.
