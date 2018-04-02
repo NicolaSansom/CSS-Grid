@@ -21,7 +21,7 @@ grid-template-areas:
 
 To take the statement more readable we have put each row onto a new line. If we did not want to name a area we could just put a `.`
 
-When all are areas names are defined we can go in and start assigning classes to areas of example:
+When all are area names are defined we can go in and start assigning classes to areas of example:
 `grid-area: footer;`
 
 **Redefine areas based on screensize**
