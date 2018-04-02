@@ -2,7 +2,7 @@
 
 ## Naming lines
 
-It is possible to name lines within a grid, lines are not the columns/row themselves they go in between the rows/columns.
+It is possible to name lines within a grid, lines are not the columns/rows themselves they go in between the rows/columns.
 
 ### Defining the names
 
