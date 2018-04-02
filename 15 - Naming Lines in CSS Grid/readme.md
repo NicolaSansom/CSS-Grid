@@ -13,7 +13,7 @@ grid-template-columns: 1fr 500px 1fr;
 grid-template-rows: repeat(10, auto);
 ```
 
-Adding names
+With names
 
 ```css
 grid-template-columns: [site-left] 1fr [content-start] 500px [content-end] 1fr [side-right];
