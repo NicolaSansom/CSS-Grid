@@ -1,4 +1,4 @@
-###  Lessons learnt
+# Lessons learnt
 
 ## Sizing items within a grid
 
@@ -6,8 +6,8 @@ If you add width to an item within a grid the whole of that column will how the 
 
 Of course this not always desired sometimes we want just a items to have a different width not the while column to do this instead of using fixed widths on items we can use:
 
+## Spanning
 
-## Spanning 
 `grid-column: span 2;`
 This covers multiple slots within the grid
 

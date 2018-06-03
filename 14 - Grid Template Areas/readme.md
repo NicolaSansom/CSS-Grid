@@ -1,11 +1,11 @@
 # Lessons learnt
 
-Grid templates allow us to assign names to different area of a grid these typically the areasyou create when you put:
+Grid templates allow us to assign names to different area of a grid these are typically the areas you create when you put:
  `grid-template-columns: 1fr 500px 1fr;`
 
 ## Define grid areas
 
- To assign a name to area an of the grid you put:
+ To assign a name to area within the grid you put:
  `grid-template-areas: "sidebar-1 content sidebar-2";`
 
  The example corresponds to the areas defined in the previous statement.
@@ -19,9 +19,9 @@ grid-template-areas:
  "footer footer footer";
  ```
 
-To take the statement more readable we have put each row onto a new line. If we did not want to name a area we could just put a `.`
+To make the statement more readable we have to put each row onto a new line. If we did not want to name a area we could just put a `.`
 
-When all are area names are defined we can go in and start assigning classes to areas of example:
+When all of the area names are defined we can go in and start assigning classes to areas of example:
 `grid-area: footer;`
 
 **Redefine areas based on screensize**

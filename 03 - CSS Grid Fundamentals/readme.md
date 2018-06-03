@@ -1,4 +1,4 @@
-### Lessons learnt
+# Lessons learnt
 
 Display grid could be applied to a element, which is then split into sections(rows & columns) varying in size.  Items are then placed within the different sections of the grid. Items can span over multiple sections if needed.
 
@@ -7,7 +7,7 @@ The same concept as flexbox is used when applying `display: grid` to a parent al
 After applying grid the next step is split the items up into sections there are varying ways this can be done.
 
 
-## Explicitly stating how big you want each of the section of grid to be
+## Explicitly stating how big you want each of the sections of grid to be
 
 `grid-template-columns: 100px 100px 100px;` Takes the direct children of the parent(grid items) and puts them within three columns each a 100px wide , automatically creating a new row for additional elements once again with three columns each a 100px.
 
