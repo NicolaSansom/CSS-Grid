@@ -97,4 +97,4 @@ And then we span the img to cover the whole of the grid. To stop the images from
 }
 ```
 
-AS both the overlay and image have  `grid-row/column: 1 / -1;` set they both overlap, the z-index is then control in a similar manner to when using poisition absolute each other pretty nifty!
+As both the overlay and image have  `grid-row/column: 1 / -1;` set they both overlap, the z-index is then control in a similar manner to when using poisition absolute each other pretty nifty!
