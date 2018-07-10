@@ -1,6 +1,6 @@
 # Lessons learnt
 
-This was a practical example of using grid to create a codepen like layout. There was not complex use cases here more just nesting grids within each other to quicky create a layout.
+This was a practical example of using grid to create a codepen like layout. The main techique I learnt was nesting grids within each other to quicky create a layout at complex layout.
 
 For the main three sections(header, code & site header) I did
 
